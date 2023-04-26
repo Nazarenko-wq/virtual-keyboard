@@ -1,0 +1,30 @@
+body .wrapper {
+  max-width: 1440px;
+  width: 100%;
+  outline: 1px solid red;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+body .wrapper .tittle {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  color: hsl(120deg, 13%, 55%);
+  line-height: 20px;
+}
+body .wrapper .textarea {
+  border: 1px solid black;
+  width: 100%;
+  height: 15vw;
+  font-size: 36px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1px;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
