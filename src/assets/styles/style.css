@@ -27,4 +27,9 @@ body .wrapper .textarea {
   line-height: 20px;
   letter-spacing: 1px;
   padding: 10px;
+}
+body .wrapper .keyboard {
+  width: 100%;
+  border: 2px solid black;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

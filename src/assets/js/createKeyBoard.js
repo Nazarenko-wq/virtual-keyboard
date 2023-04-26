@@ -13,4 +13,9 @@
     let textArrea = document.createElement('textarea');
     textArrea.classList.add('textarea');
     wrapper.append(textArrea);
+
+    let keyboard = document.createElement('div');
+    keyboard.classList.add('keyboard');
+    keyboard.id = 'keyboard';
+    wrapper.append(keyboard)
 })();
