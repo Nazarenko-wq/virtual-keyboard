@@ -1,0 +1,49 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --open --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nazarenko Michael",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "filemanager-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.8.2",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "postcss-loader": "^7.1.0",
+    "postcss-preset-env": "^8.0.1",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.1",
+    "style-loader": "^3.3.2",
+    "svgo": "^3.0.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazarenko-wq/virtual-keyboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nazarenko-wq/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/Nazarenko-wq/virtual-keyboard#readme"
+}
