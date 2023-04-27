@@ -80,18 +80,3 @@ document.onkeydown = function(event) {
 document.onkeyup = function(event) {
     document.querySelector(`.buttom[data="${event.key}"]`).classList.remove('active');
 };
-
-// Mouse event
-// document.querySelector('.keyboard').onmousedown = function(event) {
-
-//     let buttoms = document.querySelectorAll('.buttom');
-
-//     buttoms.forEach(elem => {
-//         elem.classList.remove('active');
-//     });
-
-//     if(event.target.classList.contains('buttom')) {
-//         event.target.classList.add('active');
-//     }
-//     // console.log(event.target);
-// }

@@ -65,7 +65,7 @@ body {
                 font-weight: 700;
 
                 &:hover {
-                    background: hsl(120, 13%, 55%);
+                    background: rgb(125, 155, 125);
                 }
             }
 
@@ -89,7 +89,7 @@ body {
 
             .active {
                 background: rgb(50, 105, 50);
-                border-radius: 40%;
+                border-radius: 80px;
             }
         }
     }
