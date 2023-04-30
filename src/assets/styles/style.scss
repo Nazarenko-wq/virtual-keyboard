@@ -1,0 +1,115 @@
+%bottomArrows {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid white;
+}
+
+body {
+
+    .wrapper {
+        max-width: 1500px;
+        width: 100%;
+        outline: 1px solid red;
+        margin: 50px auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+
+        .tittle {
+            text-align: center;
+            font-size: 48px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 900;
+            color: hsl(120, 13%, 55%);
+            line-height: 20px;           
+        }
+
+        .textarea {
+            border: 1px solid black;
+            width: 100%;
+            height: 15vw;
+            font-size: 36px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 500;
+            line-height: 50px; 
+            letter-spacing: 1px;
+            padding: 10px;          
+        }
+
+        .keyboard {
+            width: 100%;
+            border: 2px solid black;
+            // height: 400px;
+            padding: 10px;
+            background: gray;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .buttom {
+                width: 80px;
+                height: 80px;
+                background: rgb(75, 75, 75);
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin: 5px 7px;
+
+                font-size: 24px;
+                font-weight: 700;
+
+                &:hover {
+                    background: rgb(125, 155, 125);
+                }
+            }
+
+            .backspace {
+                width: 180px;
+                background: rgb(51, 49, 49);
+            }
+
+            .tab {
+                width: 100px;
+                background: rgb(51, 49, 49);
+            }
+
+            .ctrl {
+                background: rgb(51, 49, 49);
+            }
+
+            .space {
+                width: 650px;
+            }
+
+            .active {
+                background: rgb(50, 105, 50);
+                border-radius: 80px;
+            }
+        }
+    }
+}
+
+.botton-triangle {
+    @extend %bottomArrows;
+}
+
+.top-triangle {
+    @extend %bottomArrows;
+    transform: rotateZ(180deg);
+}
+
+.left-triangle {
+    @extend %bottomArrows;
+    transform: rotateZ(90deg);
+}
+
+.right-triangle {
+    @extend %bottomArrows;
+    transform: rotateZ(-90deg);
+}
